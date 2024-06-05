@@ -1,5 +1,5 @@
 import React from 'react'
-import UserItem from './UserItem'
+import UserItem from './user-item'
 
 import {
     Bell,
@@ -21,8 +21,8 @@ import {
     CommandSeparator,
     CommandShortcut,
 } from "@/components/ui/command"
-import Brand from './shared/Brand'
-import MenuList from './MenuList'
+import MenuList from './menu-list'
+import { Brand } from './shared/brand'
 
 const Sidebar = () => {
     const menuList = [

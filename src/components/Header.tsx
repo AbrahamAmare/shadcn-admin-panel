@@ -1,16 +1,13 @@
 'use client'
 
-import { Menu } from 'lucide-react'
-import { SearchCommand } from './shared/SearchCommand'
-import SignedUser from './shared/SignedUser'
+import { SearchCommand } from './shared/search-command'
+import SignedUser from './shared/signed-user'
 
-import UserNotification from './shared/UserNotification'
-import { useState } from 'react'
-import HeaderMobile from './HeaderMobile'
+import UserNotification from './shared/user-notification'
+import HeaderMobile from './header-mobile'
 
 
 const Header = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false)
     return (
         <div className='fixed right-0 left-0 lg:left-72 border-b h-16 z-40 px-4 border border-r border-slate-300'>
             <div className='grid grid-cols-2 gap-4 items-center justify-between'>

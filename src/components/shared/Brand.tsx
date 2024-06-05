@@ -3,7 +3,7 @@
 import { Target } from 'lucide-react'
 import React from 'react'
 
-const Brand = () => {
+export const Brand = () => {
     return (
         <div className='flex gap-2 items-center justify-center w-full h-16 py-4'>
             <Target size={36} />
@@ -11,5 +11,3 @@ const Brand = () => {
         </div>
     )
 }
-
-export default Brand
